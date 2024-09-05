@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #B7F5D3;
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+}
+
+hr{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.headerInner{
+    background-color: #B7F5D3;
+    height: 118px;
+}
+
+.headerLogoImg{
+    max-height: 115px;
+    max-width: 145px;
+}
+
+.headerInfo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.headerButtonModal1{
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px;
+    padding-right: 23px;
+    padding-left: 23px;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 12px;
+    margin-top: 4px;
+    min-width: 482px;
+}
+
+.headerButtonModal2{
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px;
+    padding-right: 13px;
+    padding-left: 13px;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 12px;
+    margin-top: 4px;
+    min-width: 225px;
+    margin-left: 54px;
+}
+
+.tableBg{
+    background-color: #474747;
+    display: flex;
+    justify-content: center;
+    height: 1080px;
+}
+
+.maintableBg{
+    background-color: #B7F5D3;
+    max-width: 984px;
+    max-height: 425px;
+    margin-top: 25px;
+}
+
+.maintable{
+    display: grid;
+    grid-template-columns: 1.33fr;
+    grid-gap: var(--gap_size);
+}
+
+.maintableColumns{
+    display: grid;
+    grid-template-columns: 1.5fr repeat(5, 2.5fr);
+}
+
+.maintableRows{
+    display: grid;
+    grid-template-columns: 1.5fr repeat(5, 2.5fr);
+}
+
+.maintableText{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 8px;
+    text-align: center;
+}
+
+.maintableTextRows{
+    font-weight: 400;
+    font-size: 8px;
+    padding: 8px;
+    text-align: center;
+}
+
+.maintableRows {border : 1px solid black;}
+.maintableColumns {border : 1px solid black;}
+
+
+
+
+
+
